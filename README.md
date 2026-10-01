@@ -1,1 +1,3 @@
-# Neha_Batool_2522_Lab06
+# Name: Syeda Neha Batool Jaffri
+# Roll no: 26K-2522
+# Department: Data Science
