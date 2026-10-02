@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main() {
+    int num;
+    int answer,neum;
+    int den1=1;
+    int den2=1;
+
+
+    printf("enter Nth number:");
+    if(scanf("%d",&num)==1){
+        
+      
+      for(int count=0;count<=num;count++){
+         den2=den2*num;
+      }
+      for(int count=0;count<=num;count++){
+         den1=den1*(num+1);
+      }
+    
+      for(int count=0;count<=num;count++){
+          int product=(2*num);
+         neum=neum*product;
+      } 
+     answer=(neum)/(den1*den2);
+     printf("Catalan number is:%d",answer);
+    }
+    else{
+        printf("invalid input");
+    }
+    
+    return 0;
+}
